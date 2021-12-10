@@ -1787,8 +1787,9 @@ input, select, textarea {
 		}
 
 			.image.centered img {
+				width: 50%;
 				margin: 0 auto;
-				width: auto;
+				width: 50%;
 			}
 
 /* List */
