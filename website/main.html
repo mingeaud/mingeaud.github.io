@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Dave's Pizza Place</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body class="main_body">
+    <div class="portfolio">
+        <portfolio_nav>
+            <a href="https://mingeaud.github.io/">Return to Portfolio</a>
+        </portfolio_nav>
+    </div>
+
+
+
+    <div class="all">
+
+
+        <!-- Business name and phone number. Shown at the top of each page -->
+        <section class="head">
+            <!-- Pizza logo provided by http://clipart-library.com/ -->
+            <img src="images/pizza_logo.png" min-height=250px align="left" alt="Dave's Pizza Place">
+            <p class="lead_address">Dave's Pizza</p>
+            <p class="lead_address">Open 7 Days a Week from Noon - Midnight</p>
+            <p class="lead_address">Download our menu and call us at:</p>
+            <a href="menu.pdf" class="download_button">Menu</a>
+            <p class="lead_address">Phone: (541) 555-1234</p>
+            <p class="lead_address">Or order online from our menu page!</p>
+        </section>
+
+        <!-- Navigation Links -->
+        <nav>
+            <td><a href="main.html">Main Menu</a> |
+            <td><a href="menu.html">Menu and Order Online</a> |
+            <td><a href="contact.html">Contact</a> |
+            <td><a href="about.html">About</a>
+        </nav>
+
+
+        <section class="content">
+            <h1>WELCOME TO DAVE'S PIZZA</h1>
+            <p class="content_wording">Here at Dave’s Pizza, we are passionate about good pizza made
+                with great ingredients. We were established just recently with the simple vision
+                of making the best pizza in town. We are open everyday for your convenience and offer
+                delivery and curbside pickup. </p>
+
+            <div class="unordered_list">
+                <h1>We feature:</h1>
+                <ul>
+                    <li>A Satisfaction Guarantee</li>
+                    <li>Free Delivery</li>
+                    <li>Convenient location for in person pickup</li>
+                    <li>Beer and wine coming soon</li>
+                </ul>
+            </div>
+
+            <!-- The code for the slideshow was from the example on the w3school page:
+            https://www.w3schools.com/howto/howto_js_slideshow.asp 
+            with some minor tweaks-->
+            <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 3</div>
+                    <img src="images/pic2.jpg" style="width:100%">
+                    <div class="slide_text">Great Pizza</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 3</div>
+                    <img src="images/pic3.jpg" style="width:100%">
+                    <div class="slide_text">Great ingredients</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 3</div>
+                    <img src="images/pic4.jpg" style="width:100%">
+                    <div class="slide_text">And a secret recipe for the great sauce!</div>
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                <div class="dot_div">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
+
+            </div>
+            <br>
+        </section>
+
+        <!-- The footer shows links to social media pages and is visible on each page -->
+        <section class="footer">
+            <div id="social">
+                <h2>Check us out on social media:</h2><br>
+
+                <a href="https://www.facebook.com//">
+                    <img alt="Instagram" src="images/f_logo_RGB-Hex-Blue_512.png" height="50">
+                </a>
+                <a href="https://www.instagram.com//">
+                    <img alt="Instagram" src="images/insta.png" height="50">
+                </a>
+
+                <a href="https://www.yelp.com//">
+                    <img alt="Yelp" src="images/yelp.jpg" height="50">
+                </a>
+
+            </div>
+
+        </section>
+    </div>
+
+    <!-- script for running the slide show -->
+    <script src="script1.js"></script>
+
+</body>
+
+</html>

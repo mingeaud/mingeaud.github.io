@@ -1,0 +1,16 @@
+                    <div class = "pizz_size">
+                        <p>Please select a size:</p>
+                        <input type="radio" id="size2" name="size" value="medium">
+                        <label for="size2">Medium</label><br>
+                        <input type="radio" id="size3" name="size" value="large">
+                        <label for="size3">Large</label><br><br>
+                    </div>
+                    <div id="address_form"></div>
+                    <input type="checkbox" id="pep_topping" value="pep">
+                    <label for="pep_topping">Pepperoni</label><br>
+                    <input type="checkbox" id="sausage_topping" value="sausage">
+                    <label for="sausage_topping">Sausage</label><br>
+                    <input type="checkbox" id="green_pepper_topping" value="green_pep">
+                    <label for="green_pepper_topping">Green Peppers</label><br>
+                    <input type="checkbox" id="olivesg" value="olives">
+                    <label for="olive_topping">Olives</label><br>

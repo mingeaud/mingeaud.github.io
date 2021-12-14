@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Dave's Pizza Place</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body class="main_body">
+    <div class="portfolio">
+        <portfolio_nav>
+            <a href="https://mingeaud.github.io/">Return to Portfolio</a>
+        </portfolio_nav>
+    </div>
+    <div class="all">
+
+        <!-- Business name and phone number. Shown at the top of each page -->
+        <section class="head">
+            <!-- Pizza logo provided by http://clipart-library.com/ -->
+            <img src="images/pizza_logo.png" min-height=250px align="left" alt="Dave's Pizza Place">
+            <p class="lead_address">Dave's Pizza</p>
+            <p class="lead_address">Open 7 Days a Week from Noon - Midnight</p>
+            <p class="lead_address">Download our menu and call us at:</p>
+            <a href="menu.pdf" class="download_button">Menu</a>
+            <p class="lead_address">Phone: (541) 555-1234</p>
+            <p class="lead_address">Or order online from our menu page!</p>
+        </section>
+
+        <!-- Navigation Links -->
+        <nav>
+            <td><a href="main.html">Main Menu</a> |
+            <td><a href="menu.html">Menu and Order Online</a> |
+            <td><a href="contact.html">Contact</a> |
+            <td><a href="about.html">About</a>
+        </nav>
+
+        <div class="content">
+            <h1>BUILD YOUR OWN PIZZA</h1>
+            <form>
+                <fieldset>
+
+                    <!-- Radio buttons for selecting pizza size -->
+                    <div>
+                        <h1>First, select your size:</h1>
+                        <input type='radio' class='size' id='small' name='size' value="Small">
+                        <label for="small">Small: ...... $10.00</label><br>
+                        <input type='radio' class='size' id='medium' name='size' value="Medium">
+                        <label for='medium'>Medium: .. $13.00</label><br>
+                        <input type='radio' class='size' id='large' name='size' value="Large">
+                        <label for='large'>Large ....... $15.00</label><br><br>
+                    </div>
+
+                    <!-- Checkboxes for the toppings -->
+                    <div id="toppings_form">
+                        <h1>And add your toppings. Each topping is an additional $1.50:</h1>
+                        <input type="checkbox" class="topping" id="pep_topping" value="Pepperoni">
+                        <label for="pep_topping">Pepperoni</label><br>
+                        <input type="checkbox" class="topping" id="sausage_topping" value="Sausage">
+                        <label for="sausage_topping">Sausage</label><br>
+                        <input type="checkbox" class="topping" id="can_bacon_topping" value="Canadian Bacon">
+                        <label for="can_bacon_topping">Canadian Bacon</label><br>
+                        <input type="checkbox" class="topping" id="green_pepper_topping" value="Green Peppers">
+                        <label for="green_pepper_topping">Green Peppers</label><br>
+                        <input type="checkbox" class="topping" id="olives_topping" value="Olives">
+                        <label for="olives_topping">Olives</label><br>
+                        <input type="checkbox" class="topping" id="pineapple" value="Pineapple">
+                        <label for="pineapple">Pineapple</label><br>
+                        <input type="checkbox" class="topping" id="mushrooms" value="Mushrooms">
+                        <label for="mushrooms">Mushrooms</label><br>
+                        <input type="checkbox" class="topping" id="onions" value="Onions">
+                        <label for="onions">Onions</label><br>
+                        <input type="checkbox" class="topping" id="cheese" value="Cheese">
+                        <label for="cheese">Extra Cheese</label><br>
+                    </div>
+
+                    <!-- Text input fields for the customers address -->
+                    <div id="address_form">
+                        <h3>Address</h3>
+                        <input type="text" class="cust_address" id="address1">
+                        <h3>Appartment number</h3>
+                        <input type="text" class="cust_address" id="address2">
+                        <h3>City</h3>
+                        <input type="text" class="cust_address" id="city">
+                        <h3>State</h3>
+                        <input type="text" class="cust_address" id="state">
+                        <h3>Zip Code</h3>
+                        <input type="text" class="cust_address" id="zip">
+                        <br />
+                        <br />
+                        <input type="submit" id="orderSubmit" class="submit_button">
+
+                        <!-- This empty list is for the javascript to create elements and print a confimration message-->
+                        <ul id="confirmation" style="font-size: 30px; padding-left: 10%;"></ul>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+
+
+        <!-- The footer shows links to social media pages and is visible on each page -->
+        <section class="footer">
+            <div id="social">
+                <h2>Check us out on social media:</h2><br>
+
+                <a href="https://www.facebook.com//">
+                    <img alt="Instagram" src="images/f_logo_RGB-Hex-Blue_512.png" height="50">
+                </a>
+                <a href="https://www.instagram.com//">
+                    <img alt="Instagram" src="images/insta.png" height="50">
+                </a>
+
+                <a href="https://www.yelp.com//">
+                    <img alt="Yelp" src="images/yelp.jpg" height="50">
+                </a>
+
+            </div>
+
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
