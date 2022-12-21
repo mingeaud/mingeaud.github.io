@@ -1913,9 +1913,8 @@ article:last-child {
 }
 
 .image.centered img {
-	width: 50%;
 	margin: 0 auto;
-	width: 50%;
+	width: 20%;
 }
 
 /* List */
@@ -2372,7 +2371,7 @@ button:active,
 }
 
 #main>section.cover {
-	padding: 10em 0;
+	padding: 2em 0;
 	background-size: cover;
 	background-position: center center;
 }
